@@ -21,8 +21,8 @@
         <p class="overview"> {{result.overview}} 
         </p>
         <p class="release-date">Original Release: {{result.release_date}}</p>
-        <ul class="genre-list"><!-- TODO: Use a loop to iterate through all of the genres for this movie. -->
-          <li v-for="genre in result.genres">{{genre}} </li><!-- TODO: Fill in the genre name from the data. -->
+        <ul class="genre-list">
+          <li v-for="genre in result.genres">{{genre}} </li>
         </ul>
       </li>
     </ul>
